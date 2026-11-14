@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="webBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#webBg)"/>
+
+  <!-- Browser Window Top Bar -->
+  <rect width="800" height="48" rx="16" fill="#0A0F1D"/>
+  <rect y="36" width="800" height="12" fill="#0A0F1D"/>
+  <circle cx="28" cy="24" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="24" r="6" fill="#F59E0B"/>
+  <circle cx="68" cy="24" r="6" fill="#10B981"/>
+  <rect x="110" y="14" width="450" height="20" rx="5" fill="#1E293B"/>
+  <text x="335" y="28" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">
+    https://booking-portal.local/admin-dashboard
+  </text>
+  <rect x="680" y="14" width="90" height="20" rx="4" fill="#0284C7"/>
+  <text x="725" y="28" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">PHP &bull; MySQL</text>
+
+  <!-- Main Website Mockup UI -->
+  <!-- Navigation Header inside UI -->
+  <rect x="30" y="70" width="740" height="50" rx="8" fill="url(#headerGrad)"/>
+  <text x="50" y="100" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="15" font-weight="800">
+    TRAVELRESERVE &bull; Railway &amp; Bus Ticket Portal
+  </text>
+  <rect x="580" y="82" width="80" height="26" rx="4" fill="rgba(255,255,255,0.2)"/>
+  <text x="620" y="99" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" text-anchor="middle">Bookings</text>
+  <rect x="670" y="82" width="85" height="26" rx="4" fill="#FFFFFF"/>
+  <text x="712" y="99" fill="#1E3A8A" font-family="'Inter', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Admin Panel</text>
+
+  <!-- Left: Booking Search / User Interface Mockup -->
+  <rect x="30" y="135" width="460" height="330" rx="10" fill="#131D33" stroke="#1E293B" stroke-width="1"/>
+  <text x="50" y="165" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Ticket Booking &amp; Seat Selection Interface</text>
+  
+  <!-- Search Form Box -->
+  <rect x="50" y="180" width="420" height="60" rx="6" fill="#1E293B"/>
+  <text x="65" y="202" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">Source Station</text>
+  <text x="65" y="222" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Mumbai Central</text>
+  
+  <text x="210" y="202" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">Destination</text>
+  <text x="210" y="222" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Pune Junction</text>
+  
+  <rect x="350" y="195" width="105" height="30" rx="4" fill="#0284C7"/>
+  <text x="402" y="214" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Search Trips</text>
+
+  <!-- Available Trips List -->
+  <text x="50" y="265" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11" font-weight="600">AVAILABLE BUS &amp; TRAIN SCHEDULES</text>
+
+  <!-- Trip Row 1 (Train) -->
+  <rect x="50" y="280" width="420" height="52" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <circle cx="75" cy="306" r="14" fill="#0284C7" fill-opacity="0.2"/>
+  <text x="75" y="311" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="11" font-weight="700" text-anchor="middle">🚆</text>
+  <text x="100" y="300" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Deccan Express (Train #11007)</text>
+  <text x="100" y="318" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">07:00 AM &rarr; 11:05 AM &bull; Daily</text>
+  <rect x="380" y="292" width="75" height="26" rx="4" fill="#10B981"/>
+  <text x="417" y="309" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Select Seat</text>
+
+  <!-- Trip Row 2 (Bus) -->
+  <rect x="50" y="342" width="420" height="52" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+  <circle cx="75" cy="368" r="14" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="75" y="373" fill="#F59E0B" font-family="'Inter', sans-serif" font-size="11" font-weight="700" text-anchor="middle">🚌</text>
+  <text x="100" y="362" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Shivneri AC Sleeper Bus</text>
+  <text x="100" y="380" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">08:30 AM &rarr; 12:45 PM &bull; Daily</text>
+  <rect x="380" y="354" width="75" height="26" rx="4" fill="#10B981"/>
+  <text x="417" y="371" fill="#FFFFFF" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Select Seat</text>
+
+  <!-- Tech Badges -->
+  <rect x="50" y="415" width="70" height="24" rx="4" fill="#0284C7" fill-opacity="0.2"/>
+  <text x="85" y="431" fill="#38BDF8" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">PHP Backend</text>
+  
+  <rect x="130" y="415" width="75" height="24" rx="4" fill="#10B981" fill-opacity="0.2"/>
+  <text x="167" y="431" fill="#34D399" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">MySQL DBMS</text>
+
+  <rect x="215" y="415" width="80" height="24" rx="4" fill="#F59E0B" fill-opacity="0.2"/>
+  <text x="255" y="431" fill="#FBBF24" font-family="'Inter', sans-serif" font-size="10" font-weight="600" text-anchor="middle">JS Validation</text>
+
+  <!-- Right: Admin Panel Management View -->
+  <rect x="510" y="135" width="260" height="330" rx="10" fill="#131D33" stroke="#1E293B" stroke-width="1"/>
+  <text x="530" y="165" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="13" font-weight="700">Admin Panel Control</text>
+  <text x="530" y="182" fill="#64748B" font-family="'Inter', sans-serif" font-size="10">Manage routes, schedules &amp; data</text>
+
+  <!-- Admin Metric 1 -->
+  <rect x="530" y="198" width="220" height="48" rx="6" fill="#1E293B"/>
+  <text x="545" y="218" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">Bookings Table</text>
+  <text x="545" y="234" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">CRUD Operations</text>
+
+  <!-- Admin Metric 2 -->
+  <rect x="530" y="254" width="220" height="48" rx="6" fill="#1E293B"/>
+  <text x="545" y="274" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">User &amp; Pass Authentication</text>
+  <text x="545" y="290" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Admin / Customer</text>
+
+  <!-- Admin Metric 3 -->
+  <rect x="530" y="310" width="220" height="48" rx="6" fill="#1E293B"/>
+  <text x="545" y="330" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">Relational Database</text>
+  <text x="545" y="346" fill="#F8FAFC" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">Normalized MySQL</text>
+
+  <!-- Schema pill -->
+  <rect x="530" y="375" width="220" height="70" rx="6" fill="#0A0F1D" stroke="#1E293B" stroke-width="1"/>
+  <text x="545" y="396" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">Schema: users, routes,</text>
+  <text x="545" y="414" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">trips, reservations,</text>
+  <text x="545" y="432" fill="#38BDF8" font-family="'JetBrains Mono', monospace" font-size="10">admin_logs (MySQL)</text>
+</svg>
+

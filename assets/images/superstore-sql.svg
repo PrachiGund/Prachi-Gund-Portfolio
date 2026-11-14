@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sqlBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#1A1F2C"/>
+    </linearGradient>
+    <linearGradient id="editorCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="380" rx="12" fill="url(#sqlBg)"/>
+
+  <!-- Top App Bar -->
+  <rect x="0" y="0" width="600" height="42" fill="#070B14" rx="12 12 0 0"/>
+  <circle cx="24" cy="21" r="5" fill="#EF4444"/>
+  <circle cx="40" cy="21" r="5" fill="#F59E0B"/>
+  <circle cx="56" cy="21" r="5" fill="#10B981"/>
+  <text x="75" y="25" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600">MySQL Workbench | superstore_db.sql</text>
+  <rect x="475" y="12" width="105" height="20" rx="10" fill="#1F2937"/>
+  <text x="487" y="26" fill="#A78BFA" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600">⚡ QUERY RUN: 0.12s</text>
+
+  <!-- KPI Row -->
+  <rect x="20" y="56" width="130" height="66" rx="8" fill="url(#editorCard)" stroke="#2D3748" stroke-width="1"/>
+  <text x="32" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Total Revenue</text>
+  <text x="32" y="104" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="20" font-weight="700">$2.29M</text>
+  <text x="105" y="104" fill="#10B981" font-family="Inter, sans-serif" font-size="11">USD</text>
+
+  <rect x="162" y="56" width="130" height="66" rx="8" fill="url(#editorCard)" stroke="#2D3748" stroke-width="1"/>
+  <text x="174" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Net Profit Margin</text>
+  <text x="174" y="104" fill="#10B981" font-family="Inter, sans-serif" font-size="20" font-weight="700">12.4%</text>
+  <text x="238" y="104" fill="#38BDF8" font-family="Inter, sans-serif" font-size="11">$286K</text>
+
+  <rect x="304" y="56" width="130" height="66" rx="8" fill="url(#editorCard)" stroke="#2D3748" stroke-width="1"/>
+  <text x="316" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Total Orders</text>
+  <text x="316" y="104" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="20" font-weight="700">9,994</text>
+  <text x="382" y="104" fill="#A78BFA" font-family="Inter, sans-serif" font-size="11">Rows</text>
+
+  <rect x="446" y="56" width="134" height="66" rx="8" fill="url(#editorCard)" stroke="#2D3748" stroke-width="1"/>
+  <text x="458" y="76" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Discount Anomaly</text>
+  <text x="458" y="104" fill="#F43F5E" font-family="Inter, sans-serif" font-size="20" font-weight="700">-17.8%</text>
+  <text x="532" y="104" fill="#F43F5E" font-family="Inter, sans-serif" font-size="11">Loss</text>
+
+  <!-- Left: SQL Query Code Editor -->
+  <rect x="20" y="134" width="350" height="226" rx="8" fill="#070C15" stroke="#2D3748" stroke-width="1"/>
+  <!-- Editor tab -->
+  <rect x="20" y="134" width="350" height="28" rx="8 8 0 0" fill="#0D1322"/>
+  <text x="35" y="152" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="10">queries/rfm_customer_ranking.sql</text>
+
+  <!-- Code lines with syntax highlight -->
+  <text x="35" y="180" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#F43F5E">WITH</tspan> <tspan fill="#F8FAFC">CustomerMetrics</tspan> <tspan fill="#F43F5E">AS</tspan> <tspan fill="#94A3B8">(</tspan>
+  </text>
+  <text x="45" y="198" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#38BDF8">SELECT</tspan> <tspan fill="#CBD5E1">customer_id, customer_name,</tspan>
+  </text>
+  <text x="45" y="216" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#A78BFA">ROUND</tspan><tspan fill="#94A3B8">(</tspan><tspan fill="#38BDF8">SUM</tspan><tspan fill="#CBD5E1">(sales), 2)</tspan> <tspan fill="#F43F5E">AS</tspan> <tspan fill="#CBD5E1">total_spend,</tspan>
+  </text>
+  <text x="45" y="234" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#38BDF8">DENSE_RANK</tspan><tspan fill="#94A3B8">()</tspan> <tspan fill="#38BDF8">OVER</tspan> <tspan fill="#94A3B8">(</tspan>
+  </text>
+  <text x="55" y="252" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#38BDF8">ORDER BY</tspan> <tspan fill="#38BDF8">SUM</tspan><tspan fill="#CBD5E1">(sales)</tspan> <tspan fill="#F43F5E">DESC</tspan><tspan fill="#94A3B8">)</tspan> <tspan fill="#F43F5E">AS</tspan> <tspan fill="#CBD5E1">sales_rank</tspan>
+  </text>
+  <text x="45" y="270" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#38BDF8">FROM</tspan> <tspan fill="#FBBF24">superstore_orders</tspan>
+  </text>
+  <text x="45" y="288" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#38BDF8">GROUP BY</tspan> <tspan fill="#CBD5E1">customer_id, customer_name</tspan>
+  </text>
+  <text x="35" y="306" font-family="'JetBrains Mono', monospace" font-size="10">
+    <tspan fill="#94A3B8">)</tspan> <tspan fill="#38BDF8">SELECT * FROM</tspan> <tspan fill="#F8FAFC">CustomerMetrics</tspan> <tspan fill="#38BDF8">WHERE</tspan> <tspan fill="#CBD5E1">sales_rank</tspan> <tspan fill="#F43F5E">&lt;=</tspan> <tspan fill="#FBBF24">10</tspan><tspan fill="#94A3B8">;</tspan>
+  </text>
+
+  <!-- Query result pill -->
+  <rect x="35" y="325" width="318" height="22" rx="4" fill="#131C2E"/>
+  <text x="45" y="340" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="10">✔ 10 rows returned. Filtered VIP Customer Tier.</text>
+
+  <!-- Right: Insights & Category Profitability -->
+  <rect x="382" y="134" width="198" height="226" rx="8" fill="url(#editorCard)" stroke="#2D3748" stroke-width="1"/>
+  <text x="397" y="160" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="12" font-weight="600">Category Profit %</text>
+  <text x="397" y="176" fill="#64748B" font-family="Inter, sans-serif" font-size="10">SQL Aggregation findings</text>
+
+  <!-- Technology -->
+  <text x="397" y="206" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="10">Technology (+17.4%)</text>
+  <rect x="397" y="214" width="168" height="8" rx="2" fill="#1F2937"/>
+  <rect x="397" y="214" width="145" height="8" rx="2" fill="#10B981"/>
+
+  <!-- Office Supplies -->
+  <text x="397" y="244" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="10">Office Supplies (+13.7%)</text>
+  <rect x="397" y="252" width="168" height="8" rx="2" fill="#1F2937"/>
+  <rect x="397" y="252" width="115" height="8" rx="2" fill="#38BDF8"/>
+
+  <!-- Furniture -->
+  <text x="397" y="282" fill="#CBD5E1" font-family="Inter, sans-serif" font-size="10">Furniture (+2.5%) ⚠️</text>
+  <rect x="397" y="290" width="168" height="8" rx="2" fill="#1F2937"/>
+  <rect x="397" y="290" width="30" height="8" rx="2" fill="#F59E0B"/>
+
+  <rect x="397" y="315" width="168" height="35" rx="4" fill="#1E1B4B" stroke="#4338CA" stroke-width="0.5"/>
+  <text x="404" y="330" fill="#C7D2FE" font-family="Inter, sans-serif" font-size="9" font-weight="600">Key Finding:</text>
+  <text x="404" y="342" fill="#A5B4FC" font-family="Inter, sans-serif" font-size="8.5">Tables sub-category loses $17K</text>
+</svg>

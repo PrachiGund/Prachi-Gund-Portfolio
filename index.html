@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Prachi Gund - Entry-Level Data Analyst & B.Sc. Computer Science Graduate from Mumbai University (CGPA 8.40). Skilled in SQL, Excel, Power BI, Python, and MySQL.">
+  <meta name="keywords" content="Prachi Gund, Data Analyst, Power BI, Excel, SQL, MySQL, Python, Portfolio, Mumbai University, Fresher">
+  <meta name="author" content="Prachi Gund">
+  <title>Prachi Gund | Data Analyst Portfolio | B.Sc. Computer Science</title>
+  
+  <!-- Favicon Icon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ==================== SITE NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="#hero" class="brand-logo" aria-label="Prachi Gund Portfolio Home">
+        <span class="brand-badge">PG</span>
+        <span class="brand-name">Prachi Gund<span class="brand-tag">.Analytics</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#methodology" class="nav-link">Workflow</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Nav Actions (Resume & Mobile Hamburger) -->
+      <div class="nav-actions">
+        <!-- Resume download link -->
+        <a href="assets/docs/Resume.pdf" download class="btn btn-secondary btn-sm" title="Download Resume">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content">
+            <!-- Status & University Badges -->
+            <div class="hero-badge-group">
+              <div class="status-pill">
+                <span class="pulse-dot"></span>
+                <span>Open to Entry-Level Data Analyst Roles</span>
+              </div>
+              <div class="edu-pill">
+                🎓 B.Sc. Computer Science • Mumbai University (2023–2026) • CGPA 8.40
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Transforming Data into <span class="hero-highlight">Actionable Insights</span>
+            </h1>
+
+            <p class="hero-description">
+              Hi, I'm <strong>Prachi Gund</strong> — a Data Analyst with a B.Sc. in Computer Science from 
+              <strong>Mumbai University</strong> and hands-on experience in <strong>SQL, Excel, Power BI, and Python</strong>. 
+              Skilled in data cleaning, data visualization, dashboard creation, and database management, actively seeking an entry-level Data Analyst opportunity.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>Explore Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Get in Touch</span>
+              </a>
+              <button class="copy-email-btn" data-email="prachigund05@gmail.com" title="Copy email address">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy Email</span>
+              </button>
+            </div>
+
+            <!-- Social Quick Links -->
+            <div class="hero-socials">
+              <!-- Replace with your GitHub URL -->
+              <a href="[Insert your GitHub Profile URL]" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+              <!-- Replace with your LinkedIn URL -->
+              <a href="[Insert your LinkedIn Profile URL]" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <!-- Visible Email link -->
+              <a href="mailto:prachigund05@gmail.com" class="social-link" title="Send Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Avatar / Profile Graphic Placeholder -->
+          <div class="hero-visual">
+            <div class="avatar-wrapper">
+              <img src="assets/images/analyst-avatar.svg" alt="Prachi Gund - Data Analyst Illustration" class="avatar-img">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Factual Quick Highlights Strip -->
+        <div class="hero-highlights-strip">
+          <div class="highlight-item">
+            <span class="highlight-val">B.Sc. CS</span>
+            <span class="highlight-label">Mumbai University</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-val">8.40 CGPA</span>
+            <span class="highlight-label">Academic Distinction</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-val">3 Projects</span>
+            <span class="highlight-label">Healthcare, SQL, Web</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-val">Immediate</span>
+            <span class="highlight-label">Available to Join</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME SECTION ==================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background &amp; Analytical Profile</h2>
+          <p class="section-desc">
+            Combining computer science fundamentals with hands-on data analytics to solve practical business questions.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Narrative -->
+          <div class="about-card">
+            <p class="about-paragraph">
+              I am a Data Analyst with a <strong>B.Sc. in Computer Science from Mumbai University (2023–2026, CGPA 8.40)</strong>. 
+              My academic journey has equipped me with strong analytical thinking, structured database logic, and practical programming skills.
+            </p>
+            <p class="about-paragraph">
+              I have hands-on experience working across the data lifecycle: transforming messy datasets with <strong>Power Query and Python</strong>, 
+              querying relational databases using <strong>SQL and MySQL</strong>, and building intuitive dashboards in <strong>Microsoft Excel and Power BI</strong>. 
+              Additionally, my background in web technologies (PHP, JavaScript, HTML, CSS) gives me a clear understanding of how transactional data is captured and stored.
+            </p>
+
+            <h3 class="about-strengths-title">Core Technical Strengths:</h3>
+            <div class="strengths-grid">
+              <div class="strength-item">
+                <svg class="strength-icon" width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Data Cleaning &amp; Power Query ETL</span>
+              </div>
+              <div class="strength-item">
+                <svg class="strength-icon" width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Relational Querying &amp; MySQL Management</span>
+              </div>
+              <div class="strength-item">
+                <svg class="strength-icon" width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Dashboard Creation (Excel &amp; Power BI)</span>
+              </div>
+              <div class="strength-item">
+                <svg class="strength-icon" width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+                <span>Web Database &amp; System Integration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Profile Summary Card -->
+          <div class="about-profile-summary">
+            <div class="profile-summary-header">
+              <div class="profile-icon-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div>
+                <h3 class="profile-summary-title">Profile Overview</h3>
+                <span class="profile-summary-sub">Entry-Level Candidate</span>
+              </div>
+            </div>
+
+            <div class="info-details-list">
+              <div class="info-item">
+                <span class="info-label">Degree:</span>
+                <span class="info-value">B.Sc. Computer Science</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">University:</span>
+                <span class="info-value">Mumbai University</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Academic Score:</span>
+                <span class="info-value" style="color: var(--blue-accent);">CGPA 8.40</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Timeline:</span>
+                <span class="info-value">2023 – 2026</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location:</span>
+                <span class="info-value">Mumbai, Maharashtra, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Primary Stack:</span>
+                <span class="info-value">SQL, Excel, Power BI, Python</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Availability:</span>
+                <span class="info-value" style="color: var(--emerald-accent);">Immediate Joiner</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== METHODOLOGY / WORKFLOW SECTION ==================== -->
+    <section class="workflow-section" id="methodology">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Analytical Framework</span>
+          <h2 class="section-title">My End-to-End Workflow</h2>
+          <p class="section-desc">
+            How I approach data problems — translating raw transactional records into structured business solutions.
+          </p>
+        </div>
+
+        <div class="workflow-grid">
+          
+          <div class="workflow-card">
+            <div class="workflow-step-num">01</div>
+            <h3 class="workflow-step-title">Requirements &amp; Scoping</h3>
+            <p class="workflow-step-desc">
+              Understanding core analytical questions, identifying key metrics, and inspecting source schemas for completeness and data types.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-step-num">02</div>
+            <h3 class="workflow-step-title">Data Cleaning (ETL)</h3>
+            <p class="workflow-step-desc">
+              Handling missing nulls, removing duplicates, and standardizing categories using Power Query and Python for dependable reporting.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-step-num">03</div>
+            <h3 class="workflow-step-title">Relational Querying</h3>
+            <p class="workflow-step-desc">
+              Authoring structured MySQL queries with <code>GROUP BY</code>, aggregations, and joins to slice data by category, time, and region.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-step-num">04</div>
+            <h3 class="workflow-step-title">Visual Reporting</h3>
+            <p class="workflow-step-desc">
+              Building interactive Excel Pivot Tables and Power BI dashboards with slicers to empower stakeholders with clear visual insights.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TECHNICAL SKILLS SECTION ==================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">My Analytical Toolkit</h2>
+          <p class="section-desc">
+            Technologies, tools, and competencies utilized across my data analysis, database management, and development projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Data Analysis & BI -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Data Analysis &amp; BI</h3>
+            </div>
+            <div class="skill-tags-group">
+              <span class="tech-tag featured">Power BI</span>
+              <span class="tech-tag featured">Microsoft Excel</span>
+              <span class="tech-tag featured">Pivot Tables</span>
+              <span class="tech-tag featured">Power Query</span>
+              <span class="tech-tag">Data Visualization</span>
+              <span class="tech-tag">Dashboard Creation</span>
+              <span class="tech-tag">Data Cleaning</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Databases & Querying -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Databases &amp; Querying</h3>
+            </div>
+            <div class="skill-tags-group">
+              <span class="tech-tag featured">MySQL</span>
+              <span class="tech-tag featured">SQL</span>
+              <span class="tech-tag">Database Management</span>
+              <span class="tech-tag">Relational Schemas</span>
+              <span class="tech-tag">Aggregations &amp; GROUP BY</span>
+              <span class="tech-tag">Data Filtering &amp; Sorting</span>
+              <span class="tech-tag">CRUD Operations</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Programming & Web -->
+          <div class="skill-category-card">
+            <div class="skill-card-header">
+              <div class="skill-cat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-cat-title">Programming &amp; Web</h3>
+            </div>
+            <div class="skill-tags-group">
+              <span class="tech-tag featured">Python</span>
+              <span class="tech-tag featured">PHP</span>
+              <span class="tech-tag featured">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">System Data Handling</span>
+              <span class="tech-tag">Admin Panel Design</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Soft Skills Strip -->
+        <div style="margin-top: 2rem; background-color: #ffffff; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 1.5rem 2rem;">
+          <h4 style="font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--navy-dark); margin-bottom: 0.85rem;">
+            Professional Soft Skills:
+          </h4>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
+            <span class="tech-tag">Analytical Thinking</span>
+            <span class="tech-tag">Problem Solving</span>
+            <span class="tech-tag">Attention to Detail</span>
+            <span class="tech-tag">Communication</span>
+            <span class="tech-tag">Teamwork</span>
+            <span class="tech-tag">Time Management</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 4. FEATURED PROJECTS SECTION ==================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Actual Case Studies</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">
+            Hands-on projects demonstrating data cleaning, interactive dashboard creation, SQL analysis, and full-stack database management.
+          </p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (3)</button>
+          <button class="filter-btn" data-filter="bi">Data Analytics &amp; BI</button>
+          <button class="filter-btn" data-filter="sql">Database &amp; SQL</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: Healthcare Analytics Dashboard (FIRST FEATURED PROJECT) -->
+          <article class="project-card" data-category="bi">
+            <div class="project-thumbnail-wrap">
+              <img src="assets/images/healthcare-dashboard.svg" alt="Healthcare Analytics Dashboard Preview" class="project-thumbnail">
+              <span class="project-tag-pill">Excel &amp; Power Query</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">1. Healthcare Analytics Dashboard</h3>
+              <p class="project-desc">
+                Cleaned and transformed healthcare data using Power Query and created an interactive dashboard in Microsoft Excel with Pivot Tables to visualize clinical metrics and patient patterns.
+              </p>
+              
+              <!-- Key Demonstrated Capabilities -->
+              <ul class="project-feature-list">
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Power Query ETL &amp; Data Normalization</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Interactive Excel Pivot Tables &amp; Charts</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Dynamic Timeline &amp; Department Slicers</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge-mini">Excel</span>
+                <span class="tech-badge-mini">Pivot Tables</span>
+                <span class="tech-badge-mini">Power Query</span>
+                <span class="tech-badge-mini">Data Visualization</span>
+              </div>
+              <div class="project-actions">
+                <a href="project-details/healthcare-analytics/index.html" class="btn btn-primary btn-sm">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="[Insert your GitHub project URL]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Code on GitHub">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Superstore Sales Analysis -->
+          <article class="project-card" data-category="sql">
+            <div class="project-thumbnail-wrap">
+              <img src="assets/images/superstore-sql.svg" alt="Superstore Sales Analysis Preview" class="project-thumbnail">
+              <span class="project-tag-pill">MySQL &amp; SQL</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">2. Superstore Sales Analysis</h3>
+              <p class="project-desc">
+                Analyzed multi-attribute Superstore sales records using structured SQL queries in MySQL to evaluate product category performance, regional revenue distribution, and customer purchase trends.
+              </p>
+              
+              <!-- Key Demonstrated Capabilities -->
+              <ul class="project-feature-list">
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Relational MySQL Database Setup</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Category &amp; Regional Aggregations</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Sales Trend &amp; Product Ranking Queries</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge-mini">MySQL</span>
+                <span class="tech-badge-mini">SQL Queries</span>
+                <span class="tech-badge-mini">Aggregations</span>
+                <span class="tech-badge-mini">Sales Trends</span>
+              </div>
+              <div class="project-actions">
+                <a href="project-details/superstore-sales-analysis/index.html" class="btn btn-primary btn-sm">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="[Insert your GitHub project URL]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Code on GitHub">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Online Railway & Bus Ticket Booking Website -->
+          <article class="project-card" data-category="web sql">
+            <div class="project-thumbnail-wrap">
+              <img src="assets/images/ticket-booking.svg" alt="Online Railway & Bus Ticket Booking Website Preview" class="project-thumbnail">
+              <span class="project-tag-pill">Full-Stack &amp; MySQL</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">3. Online Railway &amp; Bus Ticket Booking Website</h3>
+              <p class="project-desc">
+                Built a web-based ticket booking platform with user reservation workflows and developed an administrative control panel for managing bookings, schedules, and system data.
+              </p>
+              
+              <!-- Key Demonstrated Capabilities -->
+              <ul class="project-feature-list">
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Full-Stack Web App (PHP &amp; MySQL)</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Dedicated Administrator CRUD Panel</span>
+                </li>
+                <li class="project-feature-item">
+                  <svg class="feature-check-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Client &amp; Server-Side Data Validation</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-stack">
+                <span class="tech-badge-mini">PHP</span>
+                <span class="tech-badge-mini">MySQL</span>
+                <span class="tech-badge-mini">HTML5/CSS3</span>
+                <span class="tech-badge-mini">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="project-details/railway-bus-booking/index.html" class="btn btn-primary btn-sm">
+                  <span>View Case Study</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="[Insert your GitHub project URL]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Code on GitHub">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. EDUCATION, CERTIFICATIONS & ACHIEVEMENTS ==================== -->
+    <section class="education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Education &amp; Credentials</span>
+          <h2 class="section-title">Education &amp; Achievements</h2>
+          <p class="section-desc">
+            Academic training at Mumbai University, verified industry certifications, and practical technical achievements.
+          </p>
+        </div>
+
+        <div class="education-card">
+          <!-- Degree Header -->
+          <div class="education-header">
+            <div class="education-title-group">
+              <div class="education-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="education-degree">
+                  Bachelor of Science in Computer Science (B.Sc. CS)
+                  <span class="cgpa-pill">CGPA: 8.40</span>
+                </h3>
+                <div class="education-university">Mumbai University, Mumbai, Maharashtra</div>
+              </div>
+            </div>
+            <span class="education-period-badge">2023 – 2026</span>
+          </div>
+
+          <p class="education-content-desc">
+            Acquired solid theoretical and practical training in relational database management systems (DBMS), structured querying (SQL), programming fundamentals, web technologies, and computational logic. Applied these foundations to clean datasets, build database schemas in MySQL, and author interactive analytics dashboards.
+          </p>
+
+          <div class="coursework-box">
+            <h4 class="coursework-title">Relevant Academic Foundations:</h4>
+            <div class="coursework-tags">
+              <span class="course-tag">Database Management Systems (DBMS)</span>
+              <span class="course-tag">Structured Query Language (SQL)</span>
+              <span class="course-tag">Python Programming</span>
+              <span class="course-tag">Web Development (HTML, CSS, JS, PHP)</span>
+              <span class="course-tag">Data Structures &amp; Algorithms</span>
+              <span class="course-tag">Data Visualization</span>
+            </div>
+          </div>
+
+          <!-- Subgrid: Certifications & Achievements -->
+          <div class="edu-subgrid">
+            
+            <!-- Certifications Card -->
+            <div class="edu-subcard">
+              <h4 class="edu-subtitle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+                Certifications
+              </h4>
+              <ul class="cert-list">
+                <li class="cert-item">
+                  <svg class="cert-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Mobile Application Development in Android</strong>
+                    <span class="cert-issuer">Bloomzen Infosolutions Pvt. Ltd.</span>
+                  </div>
+                </li>
+                <li class="cert-item">
+                  <svg class="cert-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Machine Learning</strong>
+                    <span class="cert-issuer">Bloomzen Infosolutions Pvt. Ltd.</span>
+                  </div>
+                </li>
+                <li class="cert-item">
+                  <svg class="cert-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Data Science Session</strong>
+                    <span class="cert-issuer">Attended Professional Session</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Achievements Card -->
+            <div class="edu-subcard">
+              <h4 class="edu-subtitle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                Achievements
+              </h4>
+              <ul class="achievement-list">
+                <li class="achievement-item">
+                  <svg class="achievement-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Dashboard Development:</strong> Created interactive data dashboards in Microsoft Excel and Power BI.
+                  </div>
+                </li>
+                <li class="achievement-item">
+                  <svg class="achievement-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Coding Competitions:</strong> Active participant in college-level programming and technical competitions.
+                  </div>
+                </li>
+                <li class="achievement-item">
+                  <svg class="achievement-icon" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <div>
+                    <strong>Problem Solving:</strong> Solved coding challenges and practice problems on HackerRank.
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 6. CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">
+            Interested in discussing entry-level Data Analyst roles, project details, or analytics opportunities? Feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Channels Card -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Let's connect &amp; collaborate</h3>
+            <p class="contact-info-desc">
+              I am actively seeking full-time, entry-level opportunities as a Data Analyst, Junior SQL Analyst, or BI Analyst.
+            </p>
+
+            <div class="contact-channels">
+              
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div style="flex-grow: 1;">
+                  <div class="contact-item-label">Email Address</div>
+                  <div class="contact-item-val">
+                    <a href="mailto:prachigund05@gmail.com">prachigund05@gmail.com</a>
+                  </div>
+                </div>
+                <button class="copy-email-btn" data-email="prachigund05@gmail.com" title="Copy email address" aria-label="Copy email">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Location</div>
+                  <div class="contact-item-val">Mumbai, Maharashtra, India</div>
+                </div>
+              </div>
+
+              <!-- Phone (Optional for public security) -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Phone</div>
+                  <div class="contact-item-val" style="color: var(--text-muted); font-size: 0.95rem;">
+                    Available upon request (Optional)
+                  </div>
+                </div>
+              </div>
+
+              <!-- LinkedIn (Placeholder until provided) -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">LinkedIn</div>
+                  <div class="contact-item-val">
+                    <!-- Replace with your actual LinkedIn profile link -->
+                    <a href="[Insert your LinkedIn Profile URL]" target="_blank" rel="noopener noreferrer">
+                      [Insert your LinkedIn Profile URL]
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- GitHub (Placeholder until provided) -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">GitHub</div>
+                  <div class="contact-item-val">
+                    <!-- Replace with your actual GitHub profile link -->
+                    <a href="[Insert your GitHub Profile URL]" target="_blank" rel="noopener noreferrer">
+                      [Insert your GitHub Profile URL]
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="assets/docs/Resume.pdf" download class="btn btn-secondary" style="width: 100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Full Resume</span>
+            </a>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-card">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="senderName" class="form-label">Full Name *</label>
+                <input type="text" id="senderName" class="form-control" placeholder="e.g. Priya Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Email Address *</label>
+                <input type="email" id="senderEmail" class="form-control" placeholder="e.g. priya.sharma@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject</label>
+                <input type="text" id="senderSubject" class="form-control" placeholder="Data Analyst Opportunity / Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message *</label>
+                <textarea id="senderMessage" class="form-control" placeholder="Hello Prachi, I reviewed your portfolio and would like to connect regarding an opportunity..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="formFeedback" class="form-feedback"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        &copy; <span id="currentYear"></span> <strong>Prachi Gund</strong>. All rights reserved. 
+        <span style="display: block; font-size: 0.85rem; color: #94a3b8; margin-top: 0.25rem;">
+          B.Sc. Computer Science &bull; Mumbai University (CGPA 8.40)
+        </span>
+      </div>
+      <div class="footer-links">
+        <a href="#hero" class="footer-link">Home</a>
+        <a href="#about" class="footer-link">About</a>
+        <a href="#methodology" class="footer-link">Workflow</a>
+        <a href="#skills" class="footer-link">Skills</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#education" class="footer-link">Education</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP BUTTON ==================== -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Toast Notification Floating Element -->
+  <div id="toastNotification" class="toast-notification"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

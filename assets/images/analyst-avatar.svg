@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340" width="100%" height="100%">
+  <defs>
+    <!-- Background and Border Gradients -->
+    <linearGradient id="avatarRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="innerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Base Circular Container -->
+  <circle cx="170" cy="170" r="160" fill="url(#innerBg)" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="170" cy="170" r="150" fill="none" stroke="url(#avatarRing)" stroke-width="2.5" stroke-dasharray="12 6" opacity="0.65"/>
+
+  <!-- Subtle Chart Grid Lines in Background -->
+  <line x1="70" y1="210" x2="270" y2="210" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="70" y1="165" x2="270" y2="165" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="70" y1="120" x2="270" y2="120" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="4"/>
+
+  <!-- Mini Background Bars -->
+  <rect x="85" y="175" width="14" height="35" rx="3" fill="#BAE6FD" opacity="0.7"/>
+  <rect x="105" y="150" width="14" height="60" rx="3" fill="#38BDF8" opacity="0.5"/>
+  <rect x="220" y="140" width="14" height="70" rx="3" fill="#0284C7" opacity="0.4"/>
+  <rect x="240" y="165" width="14" height="45" rx="3" fill="#BAE6FD" opacity="0.7"/>
+
+  <!-- Character / Analyst Avatar Vector -->
+  <!-- Shoulders / Blazer -->
+  <path d="M80,285 C80,235 120,208 170,208 C220,208 260,235 260,285 Z" fill="#0F172A"/>
+  <path d="M125,285 L170,235 L215,285 Z" fill="#E0F2FE"/>
+  <polygon points="155,285 170,250 185,285" fill="#0284C7"/>
+
+  <!-- Neck -->
+  <rect x="156" y="185" width="28" height="26" rx="4" fill="#FBD5BD"/>
+
+  <!-- Head / Face -->
+  <circle cx="170" cy="145" r="48" fill="#FBD5BD"/>
+
+  <!-- Professional Hair Style -->
+  <path d="M122,145 C118,102 145,86 170,86 C195,86 222,102 218,145 C208,114 192,108 170,108 C148,108 132,114 122,145 Z" fill="#1E293B"/>
+  <path d="M120,145 C118,175 125,195 130,205 C134,185 130,165 132,145 Z" fill="#1E293B"/>
+  <path d="M220,145 C222,175 215,195 210,205 C206,185 210,165 208,145 Z" fill="#1E293B"/>
+
+  <!-- Glasses -->
+  <rect x="140" y="136" width="24" height="17" rx="4" fill="none" stroke="#0F172A" stroke-width="2.5"/>
+  <rect x="176" y="136" width="24" height="17" rx="4" fill="none" stroke="#0F172A" stroke-width="2.5"/>
+  <line x1="164" y1="144" x2="176" y2="144" stroke="#0F172A" stroke-width="2.5"/>
+
+  <!-- Eyes & Smile -->
+  <circle cx="152" cy="144" r="2.5" fill="#0F172A"/>
+  <circle cx="188" cy="144" r="2.5" fill="#0F172A"/>
+  <path d="M158,168 Q170,178 182,168" fill="none" stroke="#C2410C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Floating Skill Chips (SQL, Python, Excel, Power BI) -->
+  <!-- Chip 1: SQL -->
+  <g transform="translate(24, 75)" filter="url(#cardShadow)">
+    <rect width="68" height="28" rx="14" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="16" cy="14" r="4" fill="#0284C7"/>
+    <text x="42" y="18" text-anchor="middle" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">SQL</text>
+  </g>
+
+  <!-- Chip 2: Python -->
+  <g transform="translate(245, 80)" filter="url(#cardShadow)">
+    <rect width="78" height="28" rx="14" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="16" cy="14" r="4" fill="#38BDF8"/>
+    <text x="48" y="18" text-anchor="middle" fill="#0F172A" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">Python</text>
+  </g>
+
+  <!-- Chip 3: Power BI -->
+  <g transform="translate(18, 195)" filter="url(#cardShadow)">
+    <rect width="86" height="28" rx="14" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+    <circle cx="16" cy="14" r="4" fill="#F59E0B"/>
+    <text x="50" y="18" text-anchor="middle" fill="#0F172A" font-family="'Inter', sans-serif" font-size="11" font-weight="700">Power BI</text>
+  </g>
+
+  <!-- Chip 4: Excel -->
+  <g transform="translate(240, 195)" filter="url(#cardShadow)">
+    <rect width="78" height="28" rx="14" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="16" cy="14" r="4" fill="#10B981"/>
+    <text x="47" y="18" text-anchor="middle" fill="#0F172A" font-family="'Inter', sans-serif" font-size="11" font-weight="700">Excel</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+===================================================================
+PRACHI GUND - DATA ANALYST RESUME PLACEHOLDER
+===================================================================
+
+To connect your actual resume to the "Download Resume" buttons:
+
+1. Save your resume as a PDF file named "Resume.pdf".
+2. Place "Resume.pdf" right here in this "assets/docs/" folder:
+   assets/docs/Resume.pdf
+3. The links in index.html already point to:
+   assets/docs/Resume.pdf
+
+===================================================================
+PROFILE SUMMARY
+===================================================================
+Name: Prachi Gund
+Email: prachigund05@gmail.com
+Title: Data Analyst | B.Sc. Computer Science
+Education: B.Sc. Computer Science, Mumbai University, 2023–2026, CGPA 8.40
+Summary: Data Analyst with a B.Sc. in Computer Science and hands-on 
+experience in SQL, Excel, Power BI and Python. Skilled in data cleaning, 
+data visualization, dashboard creation and database management. 
+Seeking an entry-level Data Analyst opportunity.
+
+Technical Skills: Power BI, Excel, Pivot Tables, Power Query, MySQL, 
+Python, SQL, PHP, JavaScript, HTML, CSS.
+Soft Skills: Analytical Thinking, Communication, Teamwork, Problem 
+Solving, Attention to Detail, Time Management.
+
+Actual Projects:
+1. Healthcare Analytics Dashboard (Excel, Pivot Tables, Power Query)
+2. Superstore Sales Analysis (MySQL)
+3. Online Railway & Bus Ticket Booking Website (PHP, MySQL, HTML, CSS, JavaScript)
+
+Certifications:
+- Mobile Application Development in Android (Bloomzen Infosolutions Pvt. Ltd.)
+- Machine Learning (Bloomzen Infosolutions Pvt. Ltd.)
+- Data Science Session (Attended)
+
+Achievements:
+- Created interactive dashboards in Excel and Power BI.
+- Participated in college coding competitions.
+- Solved coding problems on HackerRank.
+===================================================================
