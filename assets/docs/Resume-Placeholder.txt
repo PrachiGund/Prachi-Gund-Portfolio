@@ -1,44 +1,50 @@
 ===================================================================
-PRACHI GUND - DATA ANALYST RESUME PLACEHOLDER
+PRACHI GUND - DATA ANALYST & MIS EXECUTIVE RESUME
+===================================================================
+Status: ACTIVE RESUME LOADED
+File: assets/docs/Resume.pdf (Actual Uploaded PDF)
 ===================================================================
 
-To connect your actual resume to the "Download Resume" buttons:
-
-1. Save your resume as a PDF file named "Resume.pdf".
-2. Place "Resume.pdf" right here in this "assets/docs/" folder:
-   assets/docs/Resume.pdf
-3. The links in index.html already point to:
-   assets/docs/Resume.pdf
-
-===================================================================
 PROFILE SUMMARY
 ===================================================================
 Name: Prachi Gund
+Title: MIS Executive | Data Analyst
+Location: Mumbai, India
+Phone: +91 91327293436
 Email: prachigund05@gmail.com
-Title: Data Analyst | B.Sc. Computer Science
-Education: B.Sc. Computer Science, Mumbai University, 2023–2026, CGPA 8.40
-Summary: Data Analyst with a B.Sc. in Computer Science and hands-on 
-experience in SQL, Excel, Power BI and Python. Skilled in data cleaning, 
-data visualization, dashboard creation and database management. 
-Seeking an entry-level Data Analyst opportunity.
+Education: Bachelor of Science (B.Sc.), Computer Science
+Institution: University of Mumbai (2023 – 2026 | CGPA: 8.40)
 
-Technical Skills: Power BI, Excel, Pivot Tables, Power Query, MySQL, 
-Python, SQL, PHP, JavaScript, HTML, CSS.
-Soft Skills: Analytical Thinking, Communication, Teamwork, Problem 
-Solving, Attention to Detail, Time Management.
+PROFESSIONAL SUMMARY:
+B.Sc. Computer Science graduate (CGPA 8.40) with hands-on experience 
+in Excel, SQL, Power BI, and Python, seeking an MIS Executive role. 
+Skilled in cleaning and organizing data, building dashboards and KPI 
+reports, and delivering accurate, easy-to-read daily, weekly and monthly 
+reports. Detail-oriented and comfortable working with deadlines and 
+recurring reporting cycles. Available to join immediately.
 
-Actual Projects:
-1. Healthcare Analytics Dashboard (Excel, Pivot Tables, Power Query)
-2. Superstore Sales Analysis (MySQL)
-3. Online Railway & Bus Ticket Booking Website (PHP, MySQL, HTML, CSS, JavaScript)
+TECHNICAL SKILLS:
+- MIS & Reporting: Daily/Weekly/Monthly MIS reports, KPI reporting, 
+  dashboards, data accuracy & validation checks
+- Advanced Excel: VLOOKUP, XLOOKUP, INDEX-MATCH, SUMIFS, COUNTIFS, IF, 
+  PivotTables, Power Query, Conditional Formatting, Charts
+- BI & Visualization: Power BI, DAX, interactive dashboards, data visualization
+- Database: SQL, MySQL, joins, aggregations, GROUP BY, HAVING, views
+- Programming: Python, SQL
+- Data Analysis: Data cleaning, exploratory analysis, trend analysis, business insights
 
-Certifications:
-- Mobile Application Development in Android (Bloomzen Infosolutions Pvt. Ltd.)
-- Machine Learning (Bloomzen Infosolutions Pvt. Ltd.)
-- Data Science Session (Attended)
+PROJECTS:
+1. HR Analytics Dashboard | Excel / Power BI
+2. Hospital Analytics Dashboard | Excel / Power BI
+3. Superstore Sales Analysis | MySQL
 
-Achievements:
-- Created interactive dashboards in Excel and Power BI.
-- Participated in college coding competitions.
-- Solved coding problems on HackerRank.
+CERTIFICATIONS & ACTIVITIES:
+- Machine Learning – Bloomzen Infosolutions Pvt. Ltd.
+- Mobile Application Development in Android – Bloomzen Infosolutions Pvt. Ltd.
+- Practiced SQL and programming problems on HackerRank; participated in college coding competitions.
+
+ADDITIONAL INFORMATION:
+- Languages: English, Hindi, Marathi
+- Strengths: Attention to detail, data accuracy, analytical thinking, 
+  problem solving, teamwork, meeting deadlines
 ===================================================================

@@ -449,6 +449,66 @@ section {
   align-items: center;
 }
 
+.profile-photo-card {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.profile-photo-frame {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px -12px rgba(15, 23, 42, 0.2), 0 0 0 1px rgba(226, 232, 240, 0.9);
+  background: #ffffff;
+  padding: 0.65rem;
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.profile-photo-frame:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 55px -14px rgba(2, 132, 199, 0.25), 0 0 0 2px var(--blue-accent);
+}
+
+.profile-photo-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 935 / 1024;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 14px;
+  display: block;
+}
+
+.profile-photo-badge {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.15rem;
+  background-color: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.825rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  white-space: nowrap;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.profile-photo-badge .badge-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #38BDF8;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #38BDF8;
+}
+
 .avatar-wrapper {
   position: relative;
   width: 100%;
