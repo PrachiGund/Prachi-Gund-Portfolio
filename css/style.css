@@ -255,17 +255,19 @@ section {
   gap: 1rem;
 }
 
-/* Mobile Hamburger Button */
+/* Mobile Hamburger Button (Accessible 44px tap target) */
 .hamburger-btn {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 28px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   background: transparent;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 11px 8px;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-speed);
 }
 
 .hamburger-line {
